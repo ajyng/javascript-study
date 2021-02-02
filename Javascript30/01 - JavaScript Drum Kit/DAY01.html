@@ -69,9 +69,10 @@
     }
     
     function removeTransition(e) {
-        if (e.propertyName !== 'transform') return; //skip
+        console.log(e);
+        //if (e.propertyName !== 'transform') return; //skip
         // this.classList.remove('playing');
-        this.classList.remove('playing');
+        //this.classList.remove('playing');
     }
 
     const keys = document.querySelectorAll('.key');
